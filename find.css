@@ -1,0 +1,138 @@
+body{
+	opacity: ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	background-color: black;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: grey;
+
+}
+header img{
+	margin-left: 35px;
+	height: 90px;
+	width: 90px;
+	border-radius: 5px;	
+}
+header h1{
+	margin-left: 600px;
+	
+}
+.modelflex3 ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-color: yellow;
+
+
+}
+.modelflex3 li {
+	float: left;
+	padding-left: 135px;
+}
+.modelflex3 {
+	padding-left: 0px;
+	text-decoration: none;
+}
+.modelflex3 li a{
+	display: block;
+	color:black;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+.modelflex3 li a:hover{
+
+	background-color: white;
+}
+.name{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.name table{
+	width: 300px;
+	height: 200px;
+	background-color: lime;
+	margin-left: 150px;
+	transition: 2s;
+}
+.name video{
+	width: 300px;
+	margin-left: 300px;
+	height: 200px;
+	background-color: #80e1ff;
+}
+.modelflex3 li:hover{
+
+	background-color: red;
+}
+.honey5{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #808080;
+	margin:20px;
+}
+.honey5 div{
+	margin-left: 64px;
+
+}
+.honey5 h3{
+	background-color:#ffd8cc;
+	width: 350px;
+	margin-left: 0px;
+}
+footer{
+	margin-top: 50px;
+	background-color: #e6ffff;
+	color:black;
+	text-align: center;
+}
+
+@media only screen and (min-width:320px) and (max-width: 767px){
+	body{
+		background-color: black;
+	}
+	header{
+		width: 775px;
+	}
+	header h1{
+		margin-left: 100px;
+	}
+	.modelflex3{
+		width:750px;
+		margin-left: 10px;
+	}
+	.name video{
+		margin-left: 147px;
+		width:400px;
+	}
+	.honey5 h3{
+		margin-left: 200PX;
+	}
+	footer h5{
+		background-color: white;
+		width:775px;
+		margin-left: 0px
+	}
+	.honey5 {
+		margin-left: 20px;
+		width:700px;
+		border-radius: 10px;
+
+	}
+	.honey5 div{
+		margin-left: -80px;
+
+	}
+	.name table{
+		width:400px;
+	}
+}

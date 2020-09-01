@@ -1,0 +1,113 @@
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	background-color: #ffd699;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: grey;
+
+}
+header img{
+	margin-left: 35px;
+	height: 90px;
+	width: 90px;
+	border-radius: 5px;	
+}
+header h1{
+	margin-left: 600px
+	
+}
+.modelflex3 ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-color: yellow;
+
+
+}
+.modelflex3 li {
+	float: left;
+	padding-left: 135px;
+}
+.modelflex3 {
+	padding-left: 0px;
+	text-decoration: none;
+}
+.modelflex3 li a{
+	display: block;
+	color:black;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+.modelflex3 li a:hover{
+
+	background-color: white;
+}
+.ram3 form{
+	background-color:blue;
+	color:white;
+	width:250px;
+	margin-left: 570px;
+
+}
+h1{
+	text-align: center;
+}
+.ram3 form button{
+	text-align: center;
+	background-color: red;
+	margin-left: 70px;
+	color:yellow;
+
+}
+footer{
+	margin-top: 50px;
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+.honey4 h2{
+	text-align: center;
+	background-color: teal;
+	margin-left: 400px;
+	width:500px;
+}
+@media only screen and (min-width:320px) and (max-width: 767px){
+	body{
+		background-color: #0d0d0d;
+	}
+	header{
+		width:790px;
+	}
+	.ram3 form{
+		margin-left: 120px;
+
+	}
+	.modelflex3 {
+		width: 700px;
+		padding:50px;
+		margin-left: 0px;
+	}
+	header h1{
+		margin-left: 0px;
+	}
+	h1{
+		background-color: ;
+		color:red;
+	}
+	.honey4 h2{
+		margin-left: 70px;
+	}
+	footer h5{
+		width:800px;
+		background-color: white;
+		color:black;
+	}
+}
